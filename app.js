@@ -17,8 +17,15 @@ app.use(express.static(__dirname + "/public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+//Index route
 app.get("/", (req, res, next) => {
   res.render("index");
+});
+
+//Catch from submit
+app.post("/", (req, res, next) => {
+  res.send(req.body);
+  console.log(req.body);
 });
 
 const server = app.listen(port, () => {
