@@ -17,7 +17,7 @@
   </a>
 </p>
 
-> This is a node.js chat application powered by SockJS,  Express and Nexmo API that send SMS text messages.
+> This is a node.js application powered by SockJS, Express and Nexmo API that sends SMS text messages.
 
 ![Chat Preview](https://firebasestorage.googleapis.com/v0/b/emailsign-70c77.appspot.com/o/send%20sms.PNG?alt=media&token=3cb39c15-ba41-4d3a-9cf3-9183a22402f8)
 
